@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Easy Math</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Easy Math</h1>
+        <h3>Calculadora</h3>
+    </header>
+    <section>
+      <div>
+          <p>Escolha uma das opções: </p>
+         <input type="radio" name="c" id="somar">
+         <label for="Somar">Somar</label>
+         <input type="radio" name="c" id="subtrair">
+         <label for="subtrair">Subtrair</label>
+         <input type="radio" name="c" id="multiplicar">
+         <label for="multiplicar">Multiplicar</label>
+         <input type="radio" name="c" id="dividir">
+         <label for="dividir">Dividir</label>
+         
+          
+          <p> Digite os dois números para calcular : 
+            <input type="number" name="n1" id="n1">
+            <input type="number" name="n2" id="n2">
+
+            <p><input type="button" value="calcular" onclick='cal()'></p>
+
+
+          </p>
+     
+      </div>
+      <div id="res">
+      
+      </div>
+    </section>
+    <footer>
+     <p>&copy;Web Dev</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

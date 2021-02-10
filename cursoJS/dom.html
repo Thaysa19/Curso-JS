@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <a href="js.css"></a>
+    <title>01</title>
+    <style>
+        body{
+            color: darkgray;
+            background-color: rgb(5, 5, 5);
+            font: 17pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vai o resultado</p> <!-- teste p1.inner - Text- Html-->
+    <p>Utilizando o DOM</p>
+    <div class=msg>OI</div> <!-- teste selector -->
+    
+    
+ <script>
+     var corpo = window.document.body // teste body//
+     var p1 = window.document.getElementsByTagName('p')[0]
+     /* window.document.write('Está escrito assim: ' + p1.innerText) vem só com o conteudo do texto
+      window.document.write(p1.innerHtml) vem com a formatação junto com o conteudo */
+      corpo.style.background = 'brown'
+      p1.style.color = 'blue'
+      var d = window.document.querySelector('div.msg')
+      d.style.background = 'orange'
+        
+     
+ </script>
+    
+</body>
+</html>
