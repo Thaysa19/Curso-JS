@@ -1,21 +1,36 @@
-header{
+header {
   color: white;
   text-align: center;
 }
-body{
- background: rgb(80, 79, 79);
- font: normal 15pt Arial;
+body {
+  background: rgba(214, 45, 214, 0.781);
+  font: normal 15pt Arial;
 }
-section{
- background: white;
- border-radius: 10px;
- padding: 15px;
- width: 500px;
- margin: auto;
- box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349); /* deslo. lateral, deslo. vertical, espalhamento */
+section {
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.349); /* deslo. lateral, deslo. vertical, espalhamento */
 }
-footer{
- color: white;
- text-align: center;
- font-style: italic;
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+p > input {
+  border-radius: 0.5rem;
+  border-style: double;
+  width: 2rem;
+  height: 2rem;
+}
+#botao-cal input {
+  width: 7rem;
+  height: 2rem;
+  color: white;
+
+  background-color: rgb(146, 100, 146);
+  font-size: 1.5rem;
+  box-shadow: rebeccapurple;
 }
